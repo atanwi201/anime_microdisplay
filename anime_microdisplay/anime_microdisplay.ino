@@ -15,11 +15,11 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 //sda21 sdc22
 // WiFi Configuration
-const char* ssid = "DIGIFIBRA_CUCx";
-const char* password = "9GF94kTeUSe3";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PSWD";
 
 // URLs
-char str[150] ;//this is a variable that will be changed for the link of the "api"
+char str[150] ;//this is a variable that will be changed for the link of the "api" //change the longitute and latitude
 const char* url_weather = "https://api.open-meteo.com/v1/forecast?latitude=28.4682&longitude=-16.2546&current=temperature_2m,precipitation,is_day&timezone=auto";
 
 HTTPClient http;
@@ -132,7 +132,7 @@ void getQuote() {
   int num = rand() % 250 + 1;
 
   snprintf(str, sizeof(str),
-           "https://the-system-201.neocities.org/home/quotes/json-full_chunk_%d.json",
+           "https://the-system-201.neocities.org/home/quotes/json_full_chunk_%d.json",
            num);
 
   Serial.println(str);
