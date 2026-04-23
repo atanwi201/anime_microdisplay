@@ -4,8 +4,6 @@ This project uses an ESP32 and a tiny bright screen to display a quote from an a
 
 By the way, you’re free to use the page as an API, as I did. ;)
 
-//TODO: Make a better Readme 😅
-
 You can copy this project by downloading the repository and using the Arduino IDE to flash the code to your own ESP32.
 
 However, don’t forget to change the Wi-Fi credentials and the weather API link for your use.
