@@ -10,7 +10,7 @@
 
 ## ℹ️ Overview
 
-In this project, I successfully connected an ESP32 to the internet and retrieved various types of data such as time, weather and quotes from Web APIs like the openweather API and my own "not API" for anime quotes.  
+In this project, I successfully connected an ESP32 to the internet and retrieved various types of data such as time, weather and quotes from Web APIs like the openweather API and my own "not API" for anime quotes, it also uses a button to change the quote if you find it boring  
 
 
 ### ✍️ Authors
@@ -29,6 +29,9 @@ this will give you a new quote every time you look at it being able to inspire y
 
 
 ### 1.- ➰ Use this pinout structure
+for the button
+pin 18 and 3V (one each side)
+
 for the OLED 0,96 inch screen 
 pin D21 to SDA
 pin D22 to SDC
@@ -76,6 +79,7 @@ My custom endpoint (the-system-201.neocities.org)
 ### Hardware
 - ESP32
 - SSD1306 I2C OLED display (128x64)
+- push button
 
 ### Other
 - WiFi & internet connection
