@@ -28,16 +28,16 @@ this will give you a new quote every time you look at it being able to inspire y
 >-0.96inch TFT screen
 
 
-### 1.- ➰ Use this pinout structure:
+### 1.- ➰ Use this pinout structure
 for the OLED 0,96 inch screen 
 pin D21 to SDA
 pin D22 to SDC
 3V to VCC 
 GND to GND
+##
+### 2.- 📁 Download the files and open arduino IDE
 
-###2.- 📁 Download the files and open arduino IDE
-
-###3.- ⬇ Install the necesary libraries for configuring the ESP32
+### 3.- ⬇ Install the necesary libraries for configuring the ESP32
 
 Adafruit SSD1306
 - Controls the OLED display
@@ -53,14 +53,14 @@ Wire (built-in)
 
 - Handles SDA/SCL communication with the display
 
-###4.- 🛜 Change the weather API link and the wifi credentials
+### 4.- 🛜 Change the weather API link and the wifi credentials
 The APIs used are:
 Weather API:
 Open-Meteo API
 Quote API:
 My custom endpoint (the-system-201.neocities.org)
 
-###5.- ⬆ Upload the code to the board
+### 5.- ⬆ Upload the code to the board
 
 ## 📦 Requirements
 
