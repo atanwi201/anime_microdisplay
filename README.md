@@ -1,3 +1,5 @@
+<img src="https://the-system-201.neocities.org/home/assets/Image%203.jpeg" alt="project image"  width="300px" />
+
 # 🍥 anime tiny display
  *A display for you to use as a clock, weather station or just as inspiration for your next project .*
 
@@ -29,6 +31,7 @@ this will give you a new quote every time you look at it being able to inspire y
 
 
 ### 1.- ➰ Use this pinout structure
+<img src="https://the-system-201.neocities.org/home/assets/Capture-2026-04-27-154702.png" alt="project image" height="100px" />
 for the button
 pin 18 and 3V (one each side)
 
