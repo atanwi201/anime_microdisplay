@@ -25,10 +25,6 @@ I’m Aryan Tanwani. I created this project to learn about C++ and enhance my kn
 this will give you a new quote every time you look at it being able to inspire you to do great things.
 
 ## ⬇️ Installation
->### components:
->-Esp32-s3 Dev Board
->-0.96inch TFT screen
-
 
 ### 1.- ➰ Use this pinout structure
 <img src="https://the-system-201.neocities.org/home/assets/Capture-2026-04-27-154702.png" alt="project image" height="100px" />
