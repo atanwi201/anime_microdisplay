@@ -86,6 +86,5 @@ My custom endpoint (the-system-201.neocities.org)
 
 ## 💭 Feedback and Contributing
 
-if you have any more doubts don't hesitate in leaving it in the [Discussion](https://github.com/atanwi201/anime_microdisplay/discussions).
-
-And if you want to contribute in the project you can for example translate this readme in your native language.
+ if you want to contribute in the project you can for example translate this readme in your native language.
+if you need to contact me please do so by email atanwi@proton.me
