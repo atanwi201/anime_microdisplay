@@ -20,7 +20,7 @@ const char* ssid = "Your_wifi";
 const char* password = "Your_password";
 int btn_state;
 // URLs
-char str[150] ;//this is a variable that will be changed for the link of the "api"
+char str[150] ;//this is a variable that will be changed for the link of the "not-api"
 //remember to change the Weather API place
 const char* url_weather = "https://api.open-meteo.com/v1/forecast?latitude=28.4682&longitude=-16.2546&current=temperature_2m,precipitation,is_day&timezone=auto";
 
